@@ -1350,3 +1350,38 @@ Generating autoload files
 87 packages you are using are looking for funding.
 Use the `composer fund` command to find out more!
 No security vulnerability advisories found
+> DrupalComposerManaged\ComposerScripts::preUpdate
+Using version 'dev-main' for path repositories.
+Loading composer repositories with package information
+Info from https://repo.packagist.org: #StandWithUkraine
+Updating dependencies
+Lock file operations: 0 installs, 4 updates, 0 removals
+  - Upgrading phpunit/php-code-coverage (9.2.22 => 9.2.23)
+  - Upgrading symfony/phpunit-bridge (v5.4.16 => v5.4.17)
+  - Upgrading symfony/string (v5.4.15 => v5.4.17)
+  - Upgrading symfony/var-dumper (v5.4.14 => v5.4.17)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 0 installs, 4 updates, 0 removals
+  - Downloading symfony/var-dumper (v5.4.17)
+  - Downloading symfony/phpunit-bridge (v5.4.17)
+  - Downloading phpunit/php-code-coverage (9.2.23)
+  - Downloading symfony/string (v5.4.17)
+ 0/4 [>---------------------------]   0%
+ 1/4 [=======>--------------------]  25%
+ 2/4 [==============>-------------]  50%
+ 3/4 [=====================>------]  75%
+ 4/4 [============================] 100%
+  - Upgrading symfony/var-dumper (v5.4.14 => v5.4.17): Extracting archive
+  - Upgrading symfony/phpunit-bridge (v5.4.16 => v5.4.17): Extracting archive
+  - Upgrading phpunit/php-code-coverage (9.2.22 => 9.2.23): Extracting archive
+  - Upgrading symfony/string (v5.4.15 => v5.4.17): Extracting archive
+ 0/4 [>---------------------------]   0%
+ 4/4 [============================] 100%
+Package doctrine/reflection is abandoned, you should avoid using it. Use roave/better-reflection instead.
+Package symfony/debug is abandoned, you should avoid using it. Use symfony/error-handler instead.
+Package webmozart/path-util is abandoned, you should avoid using it. Use symfony/filesystem instead.
+Generating autoload files
+87 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+No security vulnerability advisories found
