@@ -1922,3 +1922,22 @@ Generating autoload files
 87 packages you are using are looking for funding.
 Use the `composer fund` command to find out more!
 No security vulnerability advisories found
+> DrupalComposerManaged\ComposerScripts::preUpdate
+Using version 'dev-main' for path repositories.
+Loading composer repositories with package information
+Info from https://repo.packagist.org: #StandWithUkraine
+Updating dependencies
+Lock file operations: 0 installs, 1 update, 0 removals
+  - Upgrading slevomat/coding-standard (8.7.1 => 8.8.0)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 0 installs, 1 update, 0 removals
+  - Downloading slevomat/coding-standard (8.8.0)
+  - Upgrading slevomat/coding-standard (8.7.1 => 8.8.0): Extracting archive
+Package doctrine/reflection is abandoned, you should avoid using it. Use roave/better-reflection instead.
+Package symfony/debug is abandoned, you should avoid using it. Use symfony/error-handler instead.
+Package webmozart/path-util is abandoned, you should avoid using it. Use symfony/filesystem instead.
+Generating autoload files
+87 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+No security vulnerability advisories found
