@@ -2688,16 +2688,16 @@
         },
         {
             "name": "pantheon-systems/drupal-integrations",
-            "version": "9.0.4",
+            "version": "9.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/drupal-integrations.git",
-                "reference": "7e04867c1d9c9153fc077194f7fd53eb26a9cd1d"
+                "reference": "f0bd10f93b326d759dd3bbdcbff13f6cd13c0c8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/drupal-integrations/zipball/7e04867c1d9c9153fc077194f7fd53eb26a9cd1d",
-                "reference": "7e04867c1d9c9153fc077194f7fd53eb26a9cd1d",
+                "url": "https://api.github.com/repos/pantheon-systems/drupal-integrations/zipball/f0bd10f93b326d759dd3bbdcbff13f6cd13c0c8f",
+                "reference": "f0bd10f93b326d759dd3bbdcbff13f6cd13c0c8f",
                 "shasum": ""
             },
             "conflict": {
@@ -2725,9 +2725,9 @@
             "description": "Add this project to any Drupal distribution based on drupal/core-composer-scaffold to enable it for use on Pantheon.",
             "support": {
                 "issues": "https://github.com/pantheon-systems/drupal-integrations/issues",
-                "source": "https://github.com/pantheon-systems/drupal-integrations/tree/9.0.4"
+                "source": "https://github.com/pantheon-systems/drupal-integrations/tree/9.0.5"
             },
-            "time": "2022-11-30T23:22:43+00:00"
+            "time": "2023-05-17T17:44:50+00:00"
         },
         {
             "name": "pantheon-upstreams/upstream-configuration",
